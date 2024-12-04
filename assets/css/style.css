@@ -1,0 +1,107 @@
+.bgblack:hover {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+
+}
+.sub:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.sub-list:hover {
+ 
+    color:rgb(116, 115, 115);
+
+}
+.sub-list{
+    color: black;
+  
+}
+.ima-zed{
+    /* position: absolute; */
+    z-index: -1;
+    width: auto;
+    height: 100%;
+}
+.blom{
+   
+    padding-top: 550px;
+    padding-left: 100px;
+    color: black;
+}
+.center-1{
+    text-align: center;
+}
+.anima:hover{
+    width: 200px;
+    height: 190px;
+}
+.pgblue{
+    /* position: absolute; */
+    z-index: -1;
+}
+.loop{
+    padding-top: 80px;
+    padding-left: 50px;
+    color: white;
+}
+.loop-1{
+    padding-left: 50px;
+    color: white;
+}
+.black{
+    color: black;
+}
+
+.back{
+    background-color: black;
+    padding-top: 600px;
+    
+}
+.abil{
+    position: relative;
+}
+.blue{
+    background-color: rgb(195, 212, 235);
+}
+.sub-list-2:hover {
+    border-radius: 7px;
+    color:rgb(116, 115, 115);
+    background-color: rgb(209, 225, 240);
+
+}
+.brown{
+    background-color: rgb(168, 143, 143);
+}
+.sub-list-3:hover {
+    border-radius: 10px;
+    color:rgb(116, 115, 115);
+    background-color:rgb(204, 189, 189);
+
+}
+.gray{
+    background-color: rgb(245, 242, 242);
+    
+}
+
+.green:hover{
+background-color: rgb(161, 87, 87);
+}
+.bro:hover {
+    border-bottom: 2px solid black; 
+    background-color: rgb(253, 252, 249);
+}
+/* .learn{
+    display: none;
+} */
+/* .straberry:hover .learn{
+    display: block;
+} */
+.straberry:hover {
+    border-bottom: 1px solid black;
+}
+.album:hover {
+    background-color: rgb(221, 212, 212);
+    
+}
