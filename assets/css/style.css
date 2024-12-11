@@ -4,9 +4,20 @@
     color: white;
 
 }
+.bgblack:hover .band{
+    display: block;
+}
 .sub:hover{
     color: black;
     font-weight: bold;
+}
+.homen{
+    display: none;
+
+}
+.garden:hover .homen{
+    border-top: 1px solid black;
+    display: block;
 }
 
 .sub-list:hover {
@@ -86,7 +97,7 @@
 }
 
 .green:hover{
-background-color: rgb(161, 87, 87);
+background-color: rgb(88, 85, 85);
 }
 .bro:hover {
     border-bottom: 2px solid black; 
@@ -104,4 +115,26 @@ background-color: rgb(161, 87, 87);
 .album:hover {
     background-color: rgb(221, 212, 212);
     
+}
+.image-1:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+.bgunder{
+    color: black;
+    
+}
+.bgunder:hover {
+    color: rgb(9, 5, 238);
+     text-decoration:underline;
+     text-decoration-color: blue;
+
+}
+.band{
+    display: none;
+}
+
+.pink:hover .band{
+    display: block;
 }
