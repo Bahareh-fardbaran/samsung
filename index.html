@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/main.scss" defer>
     <link rel="stylesheet" href="./assets/scss/main.scss" defer>
     <link rel="stylesheet" href="./assets/css/style.css" defer>
+    <script src="./assets/js/scriptcart.js"></script>
 </head>
 
 <body>
@@ -37,10 +38,9 @@
                                 <div class="col-lg-3 ">
                                     <div class="row">
                                         <ul class="border-end">
-                                            <li class="list-group-item sub mb-3"><a
-                                                    href="./pageone/index2.html">Discover
+                                            <li class="list-group-item sub mb-3"><a href="./page2/index2.html">Discover
                                                     Mobile</a></li>
-                                            <li class="list-group-item sub mb-3 fs-6">Galaxy AI</li>
+                                            <li class="list-group-item sub mb-3">Galaxy AI</li>
                                             <li class="list-group-item sub mb-3">Galaxy Smartphone</li>
                                             <li class="list-group-item sub mb-3">Galaxy Tab</li>
                                             <li class="list-group-item sub mb-3">Galaxy Buds</li>
@@ -66,8 +66,7 @@
                                                 <img src="./assets/images/GNB_1_Fold6_168x136.avif" class="card-img-top"
                                                     alt="...">
                                                 <div class="card-body">
-                                                    <p class="card-text">Some quick example
-                                                    </p>
+                                                    <p class="card-text sub">Some quick example</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -201,6 +200,10 @@
                             <button type="button" class="btn dropdown">
                                 <img width="32" height="32" src="https://img.icons8.com/windows/32/shopping-cart.png"
                                     alt="shopping-cart" />
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"
+                                    id="cart-count">
+                                </span>
                             </button>
                         </div>
                     </li>
@@ -214,7 +217,7 @@
                                     alt="user" />
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button">Sign in/Create Account</button></li>
+                                <li><a href="./page3/index3.html">Sign in/Create Account</a></li>
                                 <li><button class="dropdown-item" type="button">Why Create an Account?</button></li>
                                 <li><button class="dropdown-item" type="button">Track your orders</button></li>
                                 <li><button class="dropdown-item" type="button">Business Account</button></li>
@@ -270,8 +273,6 @@
         </div>
     </div>
 
-
-
     <div class="container-fluid">
         <div class="row p-0 m-0">
             <div class="col-lg-6">
@@ -292,8 +293,8 @@
                                     <br>
                                     Galaxy S24 Ultra
                                 </p>
-                                <a type="button" class=" back rounded-4 border-0  py-1"
-                                    style="color: white;padding-inline: 26px;">buy now</a>
+                                <a type="button" class="rounded-4 border-0  px-2 py-1 text-light"
+                                    style="background-color: black;">buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -306,8 +307,9 @@
                                     <br>
                                     Galaxy Z Flip6
                                 </p>
-                                <a type="button" class=" back rounded-4 border-0  py-1"
-                                    style="color: white;padding-inline: 26px;">buy now</a>
+                                <a type="button" class="rounded-4 border-0  px-2 py-1 text-light"
+                                    style="background-color: black;">buy Now</a>
+
                             </div>
                         </div>
                     </div>
@@ -322,8 +324,8 @@
                                     <br>
                                     Galaxy Z Fold6
                                 </p>
-                                <a type="button" class=" back rounded-4 border-0  py-1"
-                                    style="color: white ;padding-inline: 26px;">buy now</a>
+                                <a type="button" class="rounded-4 border-0  px-2 py-1 text-light"
+                                    style="background-color: black;">buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -336,8 +338,8 @@
                                     <br>
                                     Galaxy Watch Ultra
                                 </p>
-                                <a type="button" class=" back rounded-4 border-0  py-1"
-                                    style="color: white;padding-inline: 26px;">buy now</a>
+                                <a type="button" class="rounded-4 border-0  px-2 py-1 text-light"
+                                    style="background-color: black;">buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -363,10 +365,13 @@
 
     </div>
     <div class="container">
+        <div class="row" id="picone"></div>
+    </div>
+    <div class="container">
         <div class="row">
             <h1 class="text-block-cotainer" style="text-align: center;color: black;padding-top: 110px;">
                 Black Friday Doorbusters
-            </h1>
+            </h1>  
         </div>
         <div class="row m-0 ">
             <div class="col-lg-3">
@@ -463,52 +468,7 @@
         Unwrap the magic of shopping with Samsung
     </h1>
     <div class="container-fluid">
-        <div class="row p-3">
-            <div class="col-lg-3">
-                <div class="card border-0">
-                    <img src="./assets/images/b1.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-title">Enjoy employee discounts</h3>
-                        <p class="card-text">Unlock special holiday discounts with Samsung's Offer Programs. Get the
-                            best tech at the best prices.6</p>
-                        <a href="#" class="btn mt-4 text-decoration-underline fw-bold ">Learn more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card border-0">
-                    <img src="./assets/images/b2.avif" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-title">Trade in old gear for holiday cheer</h3>
-                        <p class="card-text">Trade in your old devices for credit towards the latest Samsung
-                            products.θ,5.</p>
-                        <a href="#" class="btn mt-4 text-decoration-underline fw-bold">Learn more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card border-0">
-                    <img src="./assets/images/b3.webp" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-title">Shop Samsung App. Save Big.</h3>
-                        <p class="card-text">With the Samsung Shop app, you can enjoy exclusive holiday deals, easy
-                            browsing, and a personalized shopping experience..</p>
-                        <a href="#" class="btn text-decoration-underline fw-bold">Learn more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card border-0">
-                    <img src="./assets/images/b4.webp" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-title">Exclusive perks for VIPs</h3>
-                        <p class="card-text">Enjoy special benefits as a Samsung VIP. Get early access to holiday deals,
-                            new products, and premium support. Auto-renews annually.3</p>
-                        <a href="#" class="btn text-decoration-underline fw-bold">Learn more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="row pt-3" id="products"></div>
     </div>
     <div class="container-fluid">
         <div class="row position-relative">
@@ -980,8 +940,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>

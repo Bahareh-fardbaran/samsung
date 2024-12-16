@@ -7,6 +7,14 @@
 .bgblack:hover .band{
     display: block;
 }
+.pin{
+    color: rgb(41, 40, 40);
+    
+}
+.sub{
+   font-size: small;
+   color: rgb(82, 76, 76);
+}
 .sub:hover{
     color: black;
     font-weight: bold;
@@ -44,6 +52,13 @@
 .center-1{
     text-align: center;
 }
+.hover-1:hover .center-1 {
+    display: none;
+}
+.hover-1:hover .back{
+    display: block;
+}
+
 .anima:hover{
     width: 200px;
     height: 190px;
@@ -66,9 +81,22 @@
 }
 
 .back{
+    display: none;
     background-color: black;
     padding-top: 600px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
     
+}
+ @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+
 }
 .abil{
     position: relative;
@@ -120,7 +148,9 @@ background-color: rgb(88, 85, 85);
     transform: scale(1.1,1.1);
 }
 
-
+.image-2:hover{
+    transform: scale(1,1);
+}
 .bgunder{
     color: black;
     
