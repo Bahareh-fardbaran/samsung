@@ -13,7 +13,7 @@
 }
 .sub{
    font-size: small;
-   color: rgb(82, 76, 76);
+   color: rgb(117, 108, 108);
 }
 .sub:hover{
     color: black;
@@ -168,3 +168,56 @@ background-color: rgb(88, 85, 85);
 .pink:hover .band{
     display: block;
 }
+.hov{
+    border: 1px solid gray;
+}
+.hov:hover {
+    border: 3px solid rgb(14, 13, 13);
+
+}
+.hove:hover {
+    background-color: rgb(241,241, 241);
+}
+.coun-query{
+    display: block;
+}
+
+@media  (max-width: 768px) {
+    .coun-query {
+      display: none;
+    }
+  }
+  .coun-quer{
+    display: none;
+  }
+  @media  (max-width: 768px) {
+    .coun-quer {
+      display: block;
+    }
+  } 
+
+  .p-query{
+    display: block;
+  }
+  @media  (max-width: 768px){
+    .p-query{
+        padding-inline-start: 50%;
+    }
+  }
+  .collapse {
+    &:not(.show) {
+      display: none;
+    }
+  }
+  
+  .collapsing {
+    height: 0;
+    overflow: hidden;
+    @include transition($transition-collapse);
+  
+    &.collapse-horizontal {
+      width: 0;
+      height: auto;
+      @include transition($transition-collapse-width);
+    }
+  }
