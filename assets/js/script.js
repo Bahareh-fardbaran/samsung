@@ -92,9 +92,9 @@ const renderBuy = (buy) => {
     const buy = [
 
         { id: 4, Text1: 'Save up to $460+ on', href: './page4/index4.html', Text2: ' Galaxy Watch Ultra', image: './assets/images/4.avif', botton: 'buy Now' },
-        { id: 2, Text1: 'Save up to $460+ on', Text2: './page4/index4.html', image: './assets/images/3.avif', botton: 'buy Now' },
-        { id: 3, Text1: 'Save up to $975+ on ', Text2: 'Galaxy S24 Ultra', image: './assets/images/1.avif', botton: 'buy Now' },
-        { id: 4, Text1: 'Save up to $460+ on', Text2: 'Galaxy Z Flip6', image: './assets/images/2.avif', botton: 'buy Now' },
+        { id: 2, Text1: 'Save up to $460+ on',href: './page6/index6.html', Text2: 'Galaxy Z Fold', image: './assets/images/3.avif', botton: 'buy Now' },
+        { id: 3, Text1: 'Save up to $975+ on ',href: './page4/index4.html', Text2: 'Galaxy S24 Ultra', image: './assets/images/1.avif', botton: 'buy Now' },
+        { id: 4, Text1: 'Save up to $460+ on',href: './page5/index5.html', Text2: 'Galaxy Z Flip6', image: './assets/images/2.avif', botton: 'buy Now' },
 
     ]
     renderItems(products)
